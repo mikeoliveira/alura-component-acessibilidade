@@ -7,6 +7,11 @@
 </app-yes-no-button-group>
 <span>{{ test }}</span> -->
 
+<input type="radio" id="yes" name="yesNoAnswer" value="yes">
+<label for="yes">Yes</label>
+<input type="radio" id="no" name="yesNoAnswer" value="no">
+<label for="no">No</label>
+
   <form [formGroup]="form" (ngSubmit)="submit()">
     <app-yes-no-button-group
     formControlName="yesNoAnswer"
