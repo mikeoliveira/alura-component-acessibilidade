@@ -10,6 +10,7 @@ export class AppComponent {
   title = 'a11y-p1';
   public yesNoAnswer: string = 'no';
   public form: FormGroup = null;
+  public test: string = null;
 
   constructor(
     formBuilder: FormBuilder
