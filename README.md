@@ -44,3 +44,6 @@ Antigo ChormeVox atualmente chamado de `Screen Reader` auxilia na leitura do htm
 Ferramente para analisar acessibilidade da página `Lighthouse` ferramenta legal para uma analise inicial.
 
 
+### Problemas com bibliotecas que geram id`s unicos - isolando ela
+
+Modulo 3 - Aula 7 (tag v3.7)
