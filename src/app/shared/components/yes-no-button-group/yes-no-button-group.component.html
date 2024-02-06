@@ -1,24 +1,24 @@
-<div
-  role="radiogroup"
-  [attr.aria-labelledby]="id"
-  class="button-group">
+<div role="radiogroup" [attr.aria-labelledby]="id" class="button-group">
   <label [attr.id]="id" class="label">{{ label }}</label>
   <button
-  role="radio"
-  [attr.aria-checked]="value=== options.YES"
-  type="button"
-  class="button button-yes"
-  (click)="active(options.YES)"
-  [class.button-pressed]="value === options.YES">
+    role="radio"
+    [attr.aria-checked]="value === options.YES"
+    [attr.tabindex]="value === options.YES || value === null ? 0 : -1"
+    type="button"
+    class="button button-yes"
+    (click)="active(options.YES)"
+    [class.button-pressed]="value === options.YES"
+  >
     Yes
   </button>
   <button
-  [attr.aria-checked]="value=== options.NO"
-  role="radio"
-  type="button"
-  class="button button-no"
-  (click)="active(options.NO)"
-  [class.button-pressed]="value === options.NO"
+    [attr.aria-checked]="value === options.NO"
+    [attr.tabindex]="value === options.NO ? 0 : -1"
+    role="radio"
+    type="button"
+    class="button button-no"
+    (click)="active(options.NO)"
+    [class.button-pressed]="value === options.NO"
   >
     No
   </button>

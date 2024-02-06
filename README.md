@@ -47,3 +47,14 @@ Ferramente para analisar acessibilidade da página `Lighthouse` ferramenta legal
 ### Problemas com bibliotecas que geram id`s unicos - isolando ela
 
 Modulo 3 - Aula 7 (tag v3.7)
+
+### Referencia - Angular Material
+Modulo 4 - Aula 2
+Por exemplo os selects - Não esta usando as tags de html padrão para conseguir a estetica desejada.
+
+Primeiro foco com TAB tem que ir direto para o elemento marcado.
+
+Trabalhando TABINDEX - Modulo 4 Aula 3
+tabindex=-1 e tabindex=0
+
+
