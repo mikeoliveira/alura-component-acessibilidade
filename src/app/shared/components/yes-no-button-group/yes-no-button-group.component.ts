@@ -49,7 +49,7 @@ export class YesNoButtonGroupComponent implements OnInit, ControlValueAccessor {
     this.disabled = isDisabled;
   }
 
-  public active(value: string): void {
+  public activate(value: string): void {
     // this.value = value;
     // this.valueChange.emit(this.value);
 
